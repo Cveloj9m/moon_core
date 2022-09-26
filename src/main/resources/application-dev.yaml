@@ -1,0 +1,17 @@
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://bj-cynosdbmysql-grp-dn68icpo.sql.tencentcdb.com:23178/moon?allowPublicKeyRetrieval=true&useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8
+    username: root
+    password: Cveloj9m.
+  redis:
+    database: 12
+    password: Cveloj9m
+    host: 47.96.169.80
+    port: 6379
+    timeout: 10000
+    cluster:
+      nodes:

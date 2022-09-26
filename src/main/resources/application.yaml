@@ -1,0 +1,5 @@
+server:
+  port: 29
+spring:
+  profiles:
+    active: dev
